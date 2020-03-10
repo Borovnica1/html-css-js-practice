@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+   box-sizing: border-box;
+}
+
+.center-content {
+  position: absolute;
+  top: 30vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: blanchedalmond;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: 500px;
+  height: 200px;
+}
+
+form {
+  background-color: red;
+  width: 50%;
+}
+
+input {
+  padding: 1rem;
+  width: 100%;
+  background-color: blue;
+  border-radius: 100px;
+}
